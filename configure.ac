@@ -1,4 +1,4 @@
-AC_INIT(f2j, 0.8.1, [f2j@cs.utk.edu])
+AC_INIT([f2j],[0.8.1],[f2j@cs.utk.edu])
 AC_REVISION([$Revision$])
 
 AC_CONFIG_SRCDIR(f2j_TODO.txt)
@@ -45,4 +45,5 @@ F2J_PACKAGE_STRING=AC_PACKAGE_NAME-AC_PACKAGE_VERSION
 AC_SUBST(F2J_PACKAGE_STRING)
 
 AC_CONFIG_FILES(Makefile src/make.def goto_trans/make.def util/make.def)
-AC_OUTPUT(src/f2j-config.h)
+AC_CONFIG_FILES([src/f2j-config.h])
+AC_OUTPUT

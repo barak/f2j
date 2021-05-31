@@ -1,4 +1,4 @@
-AC_INIT(libbytecode, 0.8.1, [f2j@cs.utk.edu])
+AC_INIT([libbytecode],[0.8.1],[f2j@cs.utk.edu])
 AC_REVISION([$Revision$])
 
 AC_CONFIG_SRCDIR(api.c)
@@ -47,4 +47,5 @@ AC_SUBST(DOXYGEN)
 
 AC_CONFIG_HEADER(bytecode.h)
 
-AC_OUTPUT(Makefile make.def)
+AC_CONFIG_FILES([Makefile make.def])
+AC_OUTPUT
