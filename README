@@ -10,8 +10,9 @@ libraries.  f2j does not and probably never will handle all Fortran code.
 
 To build the code:
 
-# ./configure
-# make
+$ autoreconf --install
+$ ./configure
+$ make
 
 and optionally:
 
